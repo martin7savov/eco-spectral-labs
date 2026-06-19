@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ЕкоЛаб2018" },
+      { name: "description", content: "Spectral Echo Archive: A web application for exploring and analyzing spectral data." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ЕкоЛаб2018" },
+      { property: "og:description", content: "Spectral Echo Archive: A web application for exploring and analyzing spectral data." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ЕкоЛаб2018" },
+      { name: "twitter:description", content: "Spectral Echo Archive: A web application for exploring and analyzing spectral data." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/186c3f22-daa4-465d-8692-402ed467061d/id-preview-180b2019--6830ec38-11b5-49a7-ab42-59c7d958ef3b.lovable.app-1781858009677.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/186c3f22-daa4-465d-8692-402ed467061d/id-preview-180b2019--6830ec38-11b5-49a7-ab42-59c7d958ef3b.lovable.app-1781858009677.png" },
     ],
     links: [
       {
